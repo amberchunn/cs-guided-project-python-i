@@ -16,5 +16,10 @@ Examples:
 - XO("zzoo") ➞ False
 """
 def XO(txt):
+    lowercase = txt.lower()
     # Your code here
+    x = lowercase.count('x')
+    o = lowercase.count('o')
+    return x == o
 
+print(XO("OOxx"))

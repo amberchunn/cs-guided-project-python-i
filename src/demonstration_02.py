@@ -10,4 +10,7 @@ Examples:
 """
 def convert(minutes):
     # Your code here
-    return minutes * 60
+    seconds = minutes * 60
+    return seconds
+
+print(convert(6))
